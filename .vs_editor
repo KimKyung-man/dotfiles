@@ -1,0 +1,7 @@
+{
+  "editor.fontFamily": "'Hack', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+  "editor.tabSize": 2,
+  "editor.glyphMargin": true,
+  "editor.renderWhitespace": true,
+  "window.reopenFolders": "all"
+}

@@ -1,0 +1,17 @@
+[credential]
+	helper = cache
+[user]
+	email = gracefulife@naver.com
+	name = gracefulife
+[core]
+	excludesfile = /home/gracefulife/.gitignore_global
+	editor = vim
+[push]
+	default = simple
+[alias]
+	lg = log --decorate=short
+	co = checkout
+	br = branch
+	cm = commit
+	st = status
+        dd = reset --hard HEAD
