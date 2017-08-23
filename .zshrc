@@ -104,3 +104,9 @@ alias lnd4='ssh lobby@lnd4.openknowl.com'
 # react-native alias
 alias rna='react-native run-android & react-native log-android'
 alias rn='react-native start'
+alias vu='vagrant up'
+alias vr='vagrant reload'
+alias vs='vagrant ssh'
+alias vss='vagrant suspend'
+
+alias oavd='cd /C/Users/grace/AppData/Local/Android/sdk/tools && ./emulator -avd Nexus_5X_API_25'
