@@ -1,9 +1,11 @@
 // 설정을 이 파일에 넣어서 기본 설정을 덮어씁니다.
 {
     "editor.tabSize": 2,
+    "editor.insertSpaces": false,
     "editor.fontSize": 13,
     "editor.fontFamily": "Hack",
     "files.eol": "\n",
     "files.autoGuessEncoding": true,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "extensions.ignoreRecommendations": false
 }
