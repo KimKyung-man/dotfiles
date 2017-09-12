@@ -4,6 +4,9 @@
 'atom-text-editor':
   'alt-up': 'core:move-up'
   'alt-down': 'core:move-down'
+  'ctrl-alt-cmd-shift-left': 'window:focus-pane-on-left'
+  'ctrl-alt-cmd-shift-up': 'window:focus-pane-above'
+  'ctrl-alt-cmd-shift-down': 'window:focus-pane-below'
 
 'atom-text-editor:not([mini])':
   'alt-up': 'editor:move-line-up'
@@ -19,3 +22,13 @@
 '.platform-win32 atom-workspace, .platform-linux atom-workspace':
   'ctrl-h': 'project-find:show'
   'ctrl-S': 'window:save-all'
+
+'.platform-win32, .platform-linux':
+  # split pane
+  'ctrl-shift-j': 'pane:split-left'
+  'ctrl-alt-l': 'pane:split-right'
+  'ctrl-shift-k': 'pane:split-up'
+  # move pane item
+  'ctrl-shift-alt-j': 'indow:move-active-item-to-pane-on-left'
+  'ctrl-shift-alt-l': 'window:move-active-item-to-pane-on-right'
+  'ctrl-shift-alt-k': 'window:move-active-item-to-pane-above'
