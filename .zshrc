@@ -94,13 +94,6 @@ alias p='NODE_ENV=production nodemon .'
 alias nl='npm list --depth=0'
 alias nlg='npm list -g --depth=0'
 
-# linode server alias
-alias lnd0='ssh lobby@lnd0.openknowl.com'
-alias lnd1='ssh lobby@lnd1.openknowl.com'
-alias lnd2='ssh lobby@lnd2.openknowl.com'
-alias lnd3='ssh lobby@lnd3.openknowl.com'
-alias lnd4='ssh lobby@lnd4.openknowl.com'
-
 # react-native alias
 alias rna='react-native run-android & react-native log-android'
 alias rn='react-native start'
