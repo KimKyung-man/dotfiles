@@ -1,9 +1,8 @@
 // 설정을 이 파일에 넣어서 기본 설정을 덮어씁니다.
 {
-    "editor.fontFamily": "'Hack', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
-    "editor.tabSize": 2,
-    "editor.glyphMargin": true,
-    "editor.renderWhitespace": true,
-    "window.reopenFolders": "all"
-
+  "editor.fontFamily": "'Hack', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+  "editor.tabSize": 2,
+  "editor.glyphMargin": true,
+  "editor.renderWhitespace": true,
+  "window.reopenFolders": "all"
 }

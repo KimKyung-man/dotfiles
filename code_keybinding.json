@@ -1,23 +1,36 @@
 // 키 바인딩을 이 파일에 넣어서 기본값을 덮어씁니다.
 [
-    { "key": "ctrl+d",          "command": "editor.action.deleteLines",
-                                     "when": "editorTextFocus" },
-    { "key": "ctrl+shift+alt+down",   "command": "editor.action.copyLinesDownAction",
-                                     "when": "editorTextFocus" },
-    { "key": "ctrl+shift+alt+up",     "command": "editor.action.copyLinesUpAction",
-                                     "when": "editorTextFocus" },
-    { "key": "ctrl+alt+down",   "command": "editor.action.copyLinesDownAction",
-                                        "when": "editorTextFocus" },
-    { "key": "ctrl+alt+up",     "command": "editor.action.copyLinesUpAction",
-                                        "when": "editorTextFocus" },
-    {
-        "key": "ctrl+shift+l",
-        "command": "workbench.action.splitEditor"
-    },
-    {
-        "key": "ctrl+t",
-        "command": "workbench.action.quickOpen"
-    }
-    
-
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.deleteLines",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.quickOpen"
+  }
 ]
