@@ -1,36 +1,89 @@
-// 키 바인딩을 이 파일에 넣어서 기본값을 덮어씁니다.
+// Place your key bindings in this file to override the defaults
 [
   {
     "key": "ctrl+d",
     "command": "editor.action.deleteLines",
-    "when": "editorTextFocus"
+    "when": "textInputFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+shift+alt+down",
-    "command": "editor.action.copyLinesDownAction",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+shift+alt+up",
-    "command": "editor.action.copyLinesUpAction",
-    "when": "editorTextFocus"
+    "key": "ctrl+shift+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
   },
   {
     "key": "ctrl+alt+down",
     "command": "editor.action.copyLinesDownAction",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
   },
   {
     "key": "ctrl+alt+up",
     "command": "editor.action.copyLinesUpAction",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "-editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+oem_5",
+    "command": "-workbench.action.splitEditor"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "workbench.action.splitEditorLeft"
   },
   {
     "key": "ctrl+shift+l",
-    "command": "workbench.action.splitEditor"
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "workbench.action.splitEditorUp"
+  },
+  {
+    "key": "ctrl+shift+oem_1",
+    "command": "workbench.action.splitEditorDown"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.quickOpenView"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "-workbench.action.quickOpenView"
   },
   {
     "key": "ctrl+t",
     "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.quickOpenRecent"
+  },
+  {
+    "key": "ctrl+k ctrl+shift+w",
+    "command": "-workbench.action.closeAllGroups"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "-workbench.action.closeWindow"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "workbench.action.closeEditorsInGroup"
+  },
+  {
+    "key": "ctrl+k w",
+    "command": "-workbench.action.closeEditorsInGroup"
   }
 ]
